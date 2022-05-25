@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Kumbh+Sans:wght@300;400;500;600;700;800;900&family=Zen+Kaku+Gothic+Antique:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ecommerce product page</title>
+  </head>
+  <body>
+    <!-- Start header -->
+    <header>
+      <div class="container">
+        <div class="links">
+          <div class="menu"><img src="images/icon-menu.svg" alt="" /></div>
+          <img src="images/logo.svg" alt="" />
+          <ul>
+            <li><a href="#">Collectios</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+        <div class="profile">
+          <div class="cart">
+            <img class="cart-img" src="images/icon-cart.svg" alt="" />
+            <div class="before">0</div>
+            <div class="drop-down">
+              <h4>Cart</h4>
+              <h3 class="empty-cart">Your cart is empty</h3>
+            </div>
+          </div>
+          <img class="avatar" src="images/image-avatar.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- Content -->
+    <section class="content">
+      <div class="slider-cont">
+        <img class="right" src="images/icon-next.svg" alt="" />
+        <img class="left" src="images/icon-previous.svg" alt="" />
+        <ul class="slider" style="left: 0px">
+          <img src="images/image-product-1.jpg" class="slider-img" alt="" />
+          <img src="images/image-product-2.jpg" alt="" />
+          <img src="images/image-product-3.jpg" alt="" />
+          <img src="images/image-product-4.jpg" alt="" />
+        </ul>
+      </div>
+      <div class="container">
+        <div class="images">
+          <img src="images/image-product-1.jpg" alt="" class="big-img" />
+
+          <div class="thumbnails">
+            <ul class="pagenation">
+              <li data-img="images/image-product-1.jpg">
+                <img src="images/image-product-1-thumbnail.jpg" alt="" />
+              </li>
+              <li data-img="images/image-product-2.jpg">
+                <img src="images/image-product-2-thumbnail.jpg" alt="" />
+              </li>
+              <li data-img="images/image-product-3.jpg">
+                <img src="images/image-product-3-thumbnail.jpg" alt="" />
+              </li>
+              <li data-img="images/image-product-4.jpg">
+                <img src="images/image-product-4-thumbnail.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="description">
+          <h4 class="company">Sneaker company</h4>
+          <h1>
+            Fall Limited edition <br />
+            Sneakers
+          </h1>
+          <p class="para">
+            These low profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand everything
+            the weather can offer.
+          </p>
+          <div class="price">
+            <div class="after-dis">
+              <h3>$125.00</h3>
+              <p>50%</p>
+            </div>
+            <div class="before-dis">$250.00</div>
+          </div>
+          <div class="add-to-cart">
+            <div class="count">
+              <img src="images/icon-plus.svg" class="plus" alt="" />
+              <p class="count-number">0</p>
+              <img src="images/icon-minus.svg" class="minus" alt="" />
+            </div>
+            <div class="add-btn"><p>Add to cart</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Content -->
+    <!-- scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
